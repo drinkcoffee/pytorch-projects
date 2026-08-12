@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environment
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# Model offload cache
+offload/
+
+# llama.cpp (cloned tool, not part of this project's source)
+llama.cpp/
+
+# Converted / quantized model files
+gguf/
+*.gguf
+
+
+data
